@@ -1,0 +1,172 @@
+body, * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scrollbar-width: auto;
+  scrollbar-color: #1995ad #080808 ;
+ }
+@font-face {
+  font-family: "Unbounded Light";
+  src: url("ofont.ru_Unbounded.ttf");
+}
+body {
+  font-size: 18px;
+  font-family: "Unbounded Light";
+  font-style: normal;
+  font-weight: normal;
+  color: #000000;
+  background-color: #F4E8D8;
+}
+
+h1{
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.nav{
+  position: relative;
+  display: flex;
+  padding-top: 0px;
+  z-index: 1;
+  background: #8e9b97;
+  height: 75px;
+  }
+.logo{
+  background: url("logo.png") no-repeat right center;
+  width: 66px;
+  height: 70px;
+  margin-top: 2px;
+  margin-left: 50px;
+  background-size: cover;
+}
+
+.photo-singer{
+  position: relative;
+  background: url("lil-drill.jpg") no-repeat right center;
+  width: 100%;
+  height: 550px;
+  margin-top: 5px;
+  background-size: cover;
+}
+.gradient-top{
+  width: 100%;
+  position: absolute;
+  color: #fff;
+  padding: 2rem;
+  background: linear-gradient(to top, rgba(0,0,0,0) 0%, rgba(4, 4, 4, 0.6) 50%, rgba(8,8,8,1) 100%);
+  top: 0px;
+}
+.gradient-bot{
+  width: 100%;
+  position: absolute;
+  color: #fff;
+  padding: 2rem;
+  background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(4, 4, 4, 0.6) 80%, rgba(8,8,8,1) 100%);
+  bottom: 0px;
+}
+
+.wrapper {
+  width: 100px;
+  height: 100px;
+  right: 0px;
+  background-size: cover; }
+
+.wrapper__checkbox {
+  display: none; }
+
+.wrapper__checkbox:checked ~ .wrapper__menu {
+  right: 0; }
+
+.wrapper__checkbox:checked ~ .wrapper__button .wrapper__button-line:nth-child(1) {
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  top: 8px; }
+
+.wrapper__checkbox:checked ~ .wrapper__button .wrapper__button-line:nth-child(2) {
+  opacity: 0; }
+
+.wrapper__checkbox:checked ~ .wrapper__button .wrapper__button-line:nth-child(3) {
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  top: -6px; }
+
+.wrapper__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #537072;
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  cursor: pointer;
+  z-index: 1; }
+
+.wrapper__button-line {
+  display: block;
+  width: 30px;
+  height: 3px;
+  border-radius: 5px;
+  background: #8e9b97;
+  margin: 2px 0;
+  position: relative;
+  -webkit-transition: all .1s linear 0.2s;
+  -o-transition: all .1s linear 0.2s;
+  transition: all .1s linear 0.2s; }
+
+
+.wrapper__menu-link {
+  font-size: 18px;
+  line-height: 20px;
+  color: #F4E8D8;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-bottom: 30px;
+  padding: 5px 10px;
+  -webkit-transition: all .2s linear;
+  -o-transition: all .2s linear;
+  transition: all .2s linear; }
+  .wrapper__menu-link:hover {
+    padding-right: 20px;   }
+
+.wrapper__menu {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 265px;
+  height: 500px;
+  background:rgba(22,22,22, 0.75);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  padding: 100px 40px 40px;
+  -webkit-transition: right 0.4s;
+  -o-transition: right 0.4s;
+  transition: right 0.4s;
+  border-bottom-left-radius: 100px; }
+
+

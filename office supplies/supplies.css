@@ -1,0 +1,34 @@
+.profile{
+  background: url("profile.png") no-repeat right center;
+  width: 65px;
+  height: 65px;
+  margin-left: 5px;
+  margin-top: 5px;
+  background-size: cover;
+}
+.company-name{
+  position: relative;
+  margin-top: 13px;
+  text-align: center;
+  font-size: 24px;
+  letter-spacing: 2rem;
+  font-family: "Unbounded Light";
+  font-style: normal;
+  font-weight: normal;
+  color: #2c4a52;
+  width: 800px;
+
+}
+.basket_img{
+  background: url("basket.png") no-repeat right center;
+  width: 60px;
+  height: 60px;
+  background-size: cover;
+}
+.wish_list{
+  display: flex;
+  align-items: center;
+  background-color: #537072;
+  padding: 7px;
+  border-radius: 30px;
+}
