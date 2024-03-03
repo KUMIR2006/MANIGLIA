@@ -42,8 +42,8 @@
 }
 .product__details{
   text-align: start;
-  font-size: 35px;
-  letter-spacing: 1px;
+  font-size: 32px;
+  letter-spacing: normal;
   white-space: pre-line;
   line-height: 75px;
 }
