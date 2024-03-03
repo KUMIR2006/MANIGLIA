@@ -6,23 +6,19 @@ footer{
   background-color: #8e9b97;
   margin-bottom:  0px;
 }
-.footer__inner{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 0 0 0;
-    min-height: 130px;
-}
+
 .footer__menu--list{
   display: flex;
   align-items: center;
   flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 0 0 0;
+  min-height: 130px;
   color:#1f2f33;
   font-weight: 600;
   font-size: 27px;
   letter-spacing:1px;
-  justify-content: space-between;
-  gap:160px;
+
 }
 .footer-link__style{
   transition: 0.75s;
