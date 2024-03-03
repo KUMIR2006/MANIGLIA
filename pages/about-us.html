@@ -4,11 +4,14 @@
 <head>
   <meta charset="UTF-8">
   <title>MANIGLIA</title>
-  <link rel="stylesheet" href="../../main.css">
-  <link rel="stylesheet" href="../../block.css">
-  <link rel="stylesheet" href="../../styles/catalog.css">
-  <link rel="stylesheet" href="../../styles/footer.css">
-  <link rel="stylesheet" href="../../styles/category.css">
+  <link rel="stylesheet" href="../main.css">
+  <link rel="stylesheet" href="../block.css">
+  <link rel="stylesheet" href="../styles/catalog.css">
+  <link rel="stylesheet" href="../styles/footer.css">
+  <link rel="stylesheet" href="../styles/category.css">
+  <link rel="stylesheet" href="../styles/basket.css">
+  <link rel="stylesheet" href="../styles/checkbox.css">
+  <link rel="stylesheet" href="../styles/about-us.css">
 </head>
 
 <body>
@@ -16,14 +19,14 @@
   <header class="header">
     <div class="container">
       <div class="header__inner">
-          <a href="../../index.html" class="logo">
-            <img src="../../icons/logo.png" alt="лого">
+          <a href="../index.html" class="logo">
+            <img src="../icons/logo.png" alt="лого">
             <div class="logo__name">MANIGLIA</div>
           </a>
         <nav class="menu">
           <ul class="menu__list">
             <li class="menu__item">
-              <a href="../registration.html" class="menu__link">
+              <a href="registration.html" class="menu__link">
               <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="51pt" height="54pt"
                   viewBox="0 0 96.000000 96.000000" preserveAspectRatio="xMidYMid meet">
 
@@ -40,7 +43,7 @@
               </a>
             </li>
             <li class="menu__item">
-              <a href="../basket.html" class="menu__link">
+              <a href="basket.html" class="menu__link">
                 <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="57pt" height="62pt"
                   viewBox="0 0 96.000000 96.000000" preserveAspectRatio="xMidYMid meet">
 
@@ -74,11 +77,11 @@
                 <span class="wrapper__button-line"></span>
               </label>
               <div class="wrapper__menu">
-                <a href="../../index.html" class="wrapper__menu-link">Главная</a>
-                <a href="../about-us.html" class="wrapper__menu-link">О компании</a>
+                <a href="../index.html" class="wrapper__menu-link">Главная</a>
+                <a href="about-us.html" class="wrapper__menu-link">О компании</a>
                 <a href="#" class="wrapper__menu-link">Контакты</a>
                 <a href="#" class="wrapper__menu-link">Прайс лист</a>
-                <a href="../registration.html" class="wrapper__menu-link">Выйти</a>
+                <a href="registration.html" class="wrapper__menu-link">Выйти</a>
               </div>
         </nav>
       </div>
@@ -86,83 +89,29 @@
   </header>
 
 <main>
-  <div class="container">
-    <div class="category">
-      <ul class="category__list">
-        <li class="category__item category__item-shadow">Письменные товары</li>
-        <li class="category__item">Папки</li>
-        <li class="category__item">Офисные принадлежности</li>
-        <li class="category__item">Бумага для принтеров</li>
-        <li class="category__item">Бумажная продукция</li>
-      </ul>
+  <section>
+    <div class="container">
+      <div class="about__us-inner">
+        <div class="about__title">О Компании</div>
+        <div class="about__info">
+          <div class="first-text">Компания MANIGLIA - это ведущий поставщик качественных канцелярских товаров. Мы специализируемся на продаже широкого ассортимента товаров для офиса, школы и дома. Наша компания предлагает высококачественные товары от ведущих производителей по доступным ценам. Мы стремимся удовлетворить потребности наших клиентов, предлагая широкий выбор продукции, а также оперативную доставку и отличное обслуживание.</div>
+          <div class="box1">
+            <div class="second-text">Компания MANIGLIA была основана в 2019 году группой энтузиастов, целью которых было создание удобной и надежной платформы для приобретения канцелярских товаров. С момента своего основания компания стремилась к тому, чтобы стать ведущим поставщиком качественных товаров для офиса, школы и дома.</div>
+            <div class="style-for-year">2019</div>
+          </div>
+          <div class="box1">
+            <div class="style-for-year">2020
+              -
+              2024
+              </div>
+            <div class="third-text">За период с 2020 по 2024 год компания MANIGLIA продолжала уверенно развиваться, укрепляя свои позиции на рынке канцелярских товаров. MANIGLIA успешно расширила свою клиентскую базу и географию продаж. В этот период компания активно внедряла инновационные технологии в свою деятельность. MANIGLIA также активно работала над расширением своего ассортимента, внедряя новые бренды и продукты в свой каталог.</div>
+          </div>
+          <div class="fourth-text">В 2024 году компания MANIGLIA стала одним из лидеров отрасли и продолжает активно развиваться, удовлетворяя потребности своих клиентов в качественных и инновационных канцелярских товарах.</div>
+        </div>
+      </div>
     </div>
-  </div>
-  <div class="container">
-    <section class="catalog">
-        <ul class="catalog__list cards-list">
-          <li class="cards-list__item card">
-            <a class="card__link" href="письменные товары/product.html">
-              <div class="card__image-inner">
-                <img class="card__image" src="../../images/Письменные товары/маркер.png" alt="">
-              </div>
-              <div class="card__info-inner">
-                <h4 class="card__name">Маркер OfficeSpace перманентный</h4>
-                <h4 class="card__name cost">20,00₽</h4>
-              </div>
-            </a>
-          </li>
-          <li class="cards-list__item card">
-            <a class="card__link" href="#">
-              <div class="card__image-inner">
-                <img class="card__image" src="../../images/Письменные товары/ручка.png" alt="">
-              </div>
-              <div class="card__info-inner">
-                <h4 class="card__name">Ручка шариковая Berlingo "xGold"</h4>
-                <h4 class="card__name cost">5,00₽</h4>
-              </div>
-            </a>
-          </li>
-          <li class="cards-list__item card">
-            <a class="card__link" href="#">
-              <div class="card__image-inner">
-                <img class="card__image" src="../../images/Письменные товары/карандаш.png " alt="">
-              </div>
-              <div class="card__info-inner">
-                <h4 class="card__name">Карандаш ч/г OfficeSpace HB</h4>
-                <h4 class="card__name cost">4,00₽</h4>
-              </div>
-            </a>
-          </li>
-          </ul>
-          <ul class="catalog__list cards-lower">
-          <li class="cards-list__item card">
-            <a class="card__link" href="#">
-              <div class="card__image-inner">
-                <img class="card__image" src="../../images/Письменные товары/точилка.png" alt="">
-              </div>
-              <div class="card__info-inner">
-                <h4 class="card__name">Точилка пластиковая Berlingo "Scenic"</h4>
-                <h4 class="card__name cost">40,00₽</h4>
-              </div>
-            </a>
-          </li>
-          <li class="cards-list__item card">
-            <a class="card__link" href="#">
-              <div class="card__image-inner">
-                <img class="card__image" src="../../images/Письменные товары/линейка.png" alt="">
-              </div>
-              <div class="card__info-inner">
-                <h4 class="card__name">Линейка 30см СТАММ, пластиковая</h4>
-                <h4 class="card__name cost">28,00₽</h4>
-              </div>
-            </a>
-          </li>
-        </ul>
-    </section>
-  </div>
-
+  </section>
 </main>
-
 <footer>
   <div class="container">
   
@@ -225,7 +174,6 @@
   
   </div>
 </footer>
-
 </body>
 
 </html>

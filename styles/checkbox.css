@@ -1,9 +1,9 @@
-input[type=radio]{
+/*input[type=radio]{
   width: 20mm;
   height: 20mm;
   border: 2mm solid black;
   border-radius: 50px;
-}
+}*/
 /*
 input[type=checkbox]{
   display: none;

@@ -1,0 +1,99 @@
+.registration__inner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 800px;
+}
+
+.form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+}
+
+.registration__form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 600px;
+  height: 600px;
+  background:rgb(44, 74, 82);
+}
+
+.form h1 {
+  margin: 30px 100px;
+  padding: 0;
+  text-align: center;
+  color: #F4E8D8 ;
+  font-size: 42px;
+  letter-spacing: 3px;
+}
+
+.input-form {
+  margin: 15px 40px;
+  text-align: center;
+  background-color: #F4E8D8;
+}
+.input-form input {
+  padding: 10px;
+  width: 100%;
+  color: rgb(44, 74, 82);
+  font-size: 20px;
+  background: none;
+  outline: none;
+  border: 5px solid #8e9b97;
+  box-sizing: border-box;
+  transition: .25s;
+
+}
+
+.input-form input[type="text"]:focus, .input-form input[type="password"]:focus {
+  border: 5px solid #537072;
+}
+
+.input-form input[type="submit"] {
+  margin-top: 20px;
+  color: #F4E8D8 ;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  letter-spacing: 2px;
+  background: rgb(44, 74, 82);
+  border:1px solid #F4E8D8;
+  transition: .3s;
+}
+
+.input-form input[type="submit"]:hover {
+  background: #537072;
+}
+.form a {
+  display: block;
+  margin: 10px 0 30px;
+  text-align: center;
+  color: #F4E8D8;
+  text-decoration: none;
+  transition: .3s;
+}
+
+.form a:hover {
+  color: #8e9b97;
+}
+
+.password-control {
+	position: absolute;
+	top: 165px;
+	right: 6px;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background: url(view.svg) 0 0 no-repeat;
+}
+.password-control.view {
+	background: url(no-view.svg) 0 0 no-repeat;
+}
+.button{
+  background-color: rgb(44, 74, 82);
+}
