@@ -71,7 +71,7 @@
 }
 .form a {
   display: block;
-  margin: 10px 0 30px;
+  margin: 0 0 30px;
   text-align: center;
   color: #F4E8D8;
   text-decoration: none;
@@ -82,17 +82,21 @@
   color: #8e9b97;
 }
 
+.password{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .password-control {
 	position: absolute;
-	top: 165px;
-	right: 6px;
-	display: inline-block;
+	top: 349px;
+	right: 110px;
 	width: 30px;
 	height: 30px;
-	background: url(view.svg) 0 0 no-repeat;
+	background: url(../icons/view.svg) 0 0 no-repeat;
 }
 .password-control.view {
-	background: url(no-view.svg) 0 0 no-repeat;
+	background: url(../icons/no-view.svg) 0 0 no-repeat;
 }
 .button{
   background-color: rgb(44, 74, 82);
