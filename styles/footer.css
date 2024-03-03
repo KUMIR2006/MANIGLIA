@@ -1,5 +1,10 @@
 footer{
+  left: 0;
+  right: 0;
+  bottom: 0;
+  flex-shrink:0;
   background-color: #8e9b97;
+  margin-bottom:  0px;
 }
 .footer__inner{
     display: flex;
@@ -14,10 +19,10 @@ footer{
   flex-direction: row;
   color:#1f2f33;
   font-weight: 600;
-  font-size: 30px;
+  font-size: 27px;
   letter-spacing:1px;
   justify-content: space-between;
-  gap:141px;
+  gap:160px;
 }
 .footer-link__style{
   transition: 0.75s;

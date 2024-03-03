@@ -4,10 +4,13 @@
 <head>
   <meta charset="UTF-8">
   <title>MANIGLIA</title>
-  <link rel="stylesheet" href="main.css">
-  <link rel="stylesheet" href="block.css">
-  <link rel="stylesheet" href="./styles/catalog.css">
-  <link rel="stylesheet" href="./styles/footer.css">
+  <link rel="stylesheet" href="../main.css">
+  <link rel="stylesheet" href="../block.css">
+  <link rel="stylesheet" href="../styles/catalog.css">
+  <link rel="stylesheet" href="../styles/footer.css">
+  <link rel="stylesheet" href="../styles/category.css">
+  <link rel="stylesheet" href="../styles/basket.css">
+  <link rel="stylesheet" href="../styles/checkbox.css">
 </head>
 
 <body>
@@ -15,56 +18,56 @@
   <header class="header">
     <div class="container">
       <div class="header__inner">
-          <a href="#" class="logo">
-            <img src="icons/logo.png" alt="лого">
+          <a href="../index.html" class="logo">
+            <img src="../icons/logo.png" alt="лого">
             <div class="logo__name">MANIGLIA</div>
           </a>
         <nav class="menu">
-            <ul class="menu__list">
-              <li class="menu__item">
-                <a href="#" class="menu__link">
-                <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="51pt" height="54pt"
-                    viewBox="0 0 96.000000 96.000000" preserveAspectRatio="xMidYMid meet">
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a href="#" class="menu__link">
+              <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="51pt" height="54pt"
+                  viewBox="0 0 96.000000 96.000000" preserveAspectRatio="xMidYMid meet">
 
-                      <g transform="translate(0.000000,96.000000) scale(0.100000,-0.100000)"
-                      fill="#000000" stroke="none">
-                      <path d="M373 945 c-238 -52 -403 -296 -364 -538 33 -204 194 -365 399 -398
-                      313 -51 594 230 543 543 -16 102 -62 190 -135 263 -73 73 -142 111 -233 130
-                      -82 18 -129 18 -210 0z m173 -144 c61 -28 89 -73 89 -143 0 -42 -5 -64 -21
-                      -85 -73 -98 -195 -98 -268 0 -31 42 -29 130 3 176 26 36 90 71 131 71 14 0 43
-                      -9 66 -19z m101 -397 c79 -38 111 -149 57 -199 -37 -34 -101 -63 -167 -76 -95
-                      -17 -216 16 -281 76 -53 49 -22 160 56 198 48 24 285 24 335 1z"/>
-                      </g>
-                  </svg>
-                </a>
-              </li>
-              <li class="menu__item">
-                <a href="/pages/basket.html" class="menu__link">
-                  <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="57pt" height="62pt"
-                    viewBox="0 0 96.000000 96.000000" preserveAspectRatio="xMidYMid meet">
-
-                    <g transform="translate(0.000000,96.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none">
-                      <path d="M263 865 c-12 -8 -44 -69 -74 -140 -53 -123 -54 -125 -86 -125 -27 0
-                  -63 -21 -63 -36 0 -2 25 -93 55 -202 44 -161 59 -201 80 -219 26 -23 30 -23
-                  305 -23 275 0 279 0 305 23 21 18 36 58 80 219 30 109 55 200 55 202 0 15 -36
-                  36 -63 36 -32 0 -33 2 -86 125 -30 71 -62 132 -74 140 -31 22 -403 22 -434 0z
-                  m434 -162 l41 -98 -129 -3 c-71 -1 -187 -1 -258 0 l-129 3 41 98 41 97 176 0
-                  176 0 41 -97z m130 -196 c-3 -7 -15 -49 -27 -92 -12 -44 -30 -110 -41 -148
-                  l-20 -67 -261 2 -261 3 -37 135 c-20 74 -40 145 -44 158 l-7 22 351 0 c285 0
-                  351 -2 347 -13z" />
-                      <path d="M296 424 c-25 -24 -22 -120 3 -134 25 -13 27 -13 45 6 10 9 16 33 16
-                  60 0 75 -28 104 -64 68z" />
-                      <path d="M456 424 c-25 -24 -22 -120 3 -134 25 -13 27 -13 45 6 10 9 16 33 16
-                  60 0 75 -28 104 -64 68z" />
-                      <path d="M616 424 c-25 -24 -22 -120 3 -134 25 -13 27 -13 45 6 10 9 16 33 16
-                  60 0 75 -28 104 -64 68z" />
+                    <g transform="translate(0.000000,96.000000) scale(0.100000,-0.100000)"
+                    fill="#000000" stroke="none">
+                    <path d="M373 945 c-238 -52 -403 -296 -364 -538 33 -204 194 -365 399 -398
+                    313 -51 594 230 543 543 -16 102 -62 190 -135 263 -73 73 -142 111 -233 130
+                    -82 18 -129 18 -210 0z m173 -144 c61 -28 89 -73 89 -143 0 -42 -5 -64 -21
+                    -85 -73 -98 -195 -98 -268 0 -31 42 -29 130 3 176 26 36 90 71 131 71 14 0 43
+                    -9 66 -19z m101 -397 c79 -38 111 -149 57 -199 -37 -34 -101 -63 -167 -76 -95
+                    -17 -216 16 -281 76 -53 49 -22 160 56 198 48 24 285 24 335 1z"/>
                     </g>
+                </svg>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a href="basket.html" class="menu__link">
+                <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="57pt" height="62pt"
+                  viewBox="0 0 96.000000 96.000000" preserveAspectRatio="xMidYMid meet">
 
-                  </svg>
-                </a>
+                  <g transform="translate(0.000000,96.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none">
+                    <path d="M263 865 c-12 -8 -44 -69 -74 -140 -53 -123 -54 -125 -86 -125 -27 0
+                -63 -21 -63 -36 0 -2 25 -93 55 -202 44 -161 59 -201 80 -219 26 -23 30 -23
+                305 -23 275 0 279 0 305 23 21 18 36 58 80 219 30 109 55 200 55 202 0 15 -36
+                36 -63 36 -32 0 -33 2 -86 125 -30 71 -62 132 -74 140 -31 22 -403 22 -434 0z
+                m434 -162 l41 -98 -129 -3 c-71 -1 -187 -1 -258 0 l-129 3 41 98 41 97 176 0
+                176 0 41 -97z m130 -196 c-3 -7 -15 -49 -27 -92 -12 -44 -30 -110 -41 -148
+                l-20 -67 -261 2 -261 3 -37 135 c-20 74 -40 145 -44 158 l-7 22 351 0 c285 0
+                351 -2 347 -13z" />
+                    <path d="M296 424 c-25 -24 -22 -120 3 -134 25 -13 27 -13 45 6 10 9 16 33 16
+                60 0 75 -28 104 -64 68z" />
+                    <path d="M456 424 c-25 -24 -22 -120 3 -134 25 -13 27 -13 45 6 10 9 16 33 16
+                60 0 75 -28 104 -64 68z" />
+                    <path d="M616 424 c-25 -24 -22 -120 3 -134 25 -13 27 -13 45 6 10 9 16 33 16
+                60 0 75 -28 104 -64 68z" />
+                  </g>
 
-              </li>
-            </ul>
+                </svg>
+              </a>
+
+            </li>
+          </ul>
             <div class="wrapper">
               <input type="checkbox" id="checkbox" class="wrapper__checkbox">
               <label for="checkbox" class="wrapper__button">
@@ -73,7 +76,7 @@
                 <span class="wrapper__button-line"></span>
               </label>
               <div class="wrapper__menu">
-                <a href="index.html" class="wrapper__menu-link">Главная</a>
+                <a href="../index.html" class="wrapper__menu-link">Главная</a>
                 <a href="#" class="wrapper__menu-link">О компании</a>
                 <a href="#" class="wrapper__menu-link">Контакты</a>
                 <a href="#" class="wrapper__menu-link">Услуги</a>
@@ -85,78 +88,114 @@
   </header>
 
 <main>
-  <div class="container">
-    <div class="adv">
-      <div class="adv__image">
-        Рекламный банер
-        <img src="" alt="">
-      </div>
+  <section>
+    <div class="container">
+     <div class="basket__inner">
+        <div class="basket__head">
+          <div class="basket__title">Корзина</div>
+          <div class="basket__choose-all">
+            <div class="choose-all">Выбрать всё</div>
+            <div class="chechbox__style">
+              <input type="radio" checked name="" />
+            </div>
+          </div>
+        </div>
+        <div class="basket__body">
+          <div class="basket__item-inner">
+            <div class="chechbox__style">
+              <input type="radio" checked name="" />
+            </div>
+            <div class="basket__item">
+              <div class="basket__photo">
+                <img src="../images/офисные принадлежности/клей.png" alt="">
+              </div>
+              <div class="basket__info">
+                <div class="item__title">Клей канцелярский Berlingo</div>
+                <div class="item__details">Шариковая ручка Berlingo xFine с вентилируемым колпачком, который обеспечивает
+                  безопасность при использовании детьми, придётся по душе тем, кто выбирает сдержанный, классический стиль.</div>
+              </div>
+              <div class="amount__cost">
+                <div class="item__cost">
+                  <div>20,00₽</div>
+                </div>
+                <div class="item__amount">
+                  <div class="number">
+                    <button class="number-minus" type="button"
+                      onclick="this.nextElementSibling.stepDown(); this.nextElementSibling.onchange();">﹣</button>
+                    <input type="number" min="1" max="10" value="1" readonly>
+                    <button class="number-plus" type="button"
+                      onclick="this.previousElementSibling.stepUp(); this.previousElementSibling.onchange();">+  </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="basket__item-delete">
+              <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="75.000000pt" height="75.000000pt"
+                viewBox="0 0 96.000000 96.000000" preserveAspectRatio="xMidYMid meet">
+                <a href="">
+                  <g transform="translate(0.000000,96.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none">
+                    <path d="M182 777 c-23 -23 -42 -49 -42 -57 0 -8 51 -65 112 -127 l113 -113
+                                        -113 -113 c-61 -62 -112 -119 -112 -127 0 -19 80 -100 99 -100 9 0 66 51 128
+                                        112 l113 113 113 -113 c62 -61 119 -112 128 -112 19 0 99 81 99 100 0 8 -51
+                                        65 -112 127 l-113 113 113 113 c61 62 112 119 112 127 0 19 -80 100 -99 100
+                                        -9 0 -66 -51 -128 -112 l-113 -113 -113 113 c-62 61 -119 112 -128 112 -8 0
+                                        -34 -19 -57 -43z" />
+                  </g>
+                </a>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="basket__body">
+          <div class="basket__item-inner">
+            <div class="chechbox__style">
+              <input type="radio" checked name="" />
+            </div>
+            <div class="basket__item">
+              <div class="basket__photo">
+                <img src="../images/офисные принадлежности/клей.png" alt="">
+              </div>
+              <div class="basket__info">
+                <div class="item__title">Клей канцелярский Berlingo</div>
+                <div class="item__details">Шариковая ручка Berlingo xFine с вентилируемым колпачком, который обеспечивает
+                  безопасность при использовании детьми, придётся по душе тем, кто выбирает сдержанный, классический стиль.</div>
+              </div>
+              <div class="amount__cost">
+                <div class="item__cost">
+                  <div>20,00₽</div>
+                </div>
+                <div class="item__amount">
+                  <div class="number">
+                    <button class="number-minus" type="button"
+                      onclick="this.nextElementSibling.stepDown(); this.nextElementSibling.onchange();">﹣</button>
+                    <input type="number" min="1" max="10" value="1" readonly>
+                    <button class="number-plus" type="button"
+                      onclick="this.previousElementSibling.stepUp(); this.previousElementSibling.onchange();">+  </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="basket__item-delete">
+              <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="75.000000pt" height="75.000000pt"
+                viewBox="0 0 96.000000 96.000000" preserveAspectRatio="xMidYMid meet">
+                <a href="">
+                  <g transform="translate(0.000000,96.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none">
+                    <path d="M182 777 c-23 -23 -42 -49 -42 -57 0 -8 51 -65 112 -127 l113 -113
+                                        -113 -113 c-61 -62 -112 -119 -112 -127 0 -19 80 -100 99 -100 9 0 66 51 128
+                                        112 l113 113 113 -113 c62 -61 119 -112 128 -112 19 0 99 81 99 100 0 8 -51
+                                        65 -112 127 l-113 113 113 113 c61 62 112 119 112 127 0 19 -80 100 -99 100
+                                        -9 0 -66 -51 -128 -112 l-113 -113 -113 113 c-62 61 -119 112 -128 112 -8 0
+                                        -34 -19 -57 -43z" />
+                  </g>
+                </a>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="basket__footer"></div>
+     </div>
     </div>
-  </div>
-  <div class="title">
-  <h1>Категории</h1>
-</div>
-  <div class="container">
-    <section class="catalog">
-        <ul class="catalog__list cards-list">
-          <li class="cards-list__item card">
-            <a class="card__link" href="pages/products/category_folders.html">
-              <div class="card__info-inner">
-                <h4 class="card__name">Письменные товары</h4>
-              </div>
-              <div class="card__image-inner">
-                <img class="card__image" src="images/Письменные товары/ручка.png" alt="">
-              </div>
-            </a>
-          </li>
-          <li class="cards-list__item card">
-            <a class="card__link" href="#">
-              <div class="card__info-inner">
-                <h4 class="card__name">Папки</h4>
-              </div>
-              <div class="card__image-inner">
-                <img class="card__image" src="images/Папки/4 кольца.png" alt="">
-              </div>
-            </a>
-          </li>
-          <li class="cards-list__item card">
-            <a class="card__link" href="#">
-              <div class="card__info-inner">
-                <h4 class="card__name">Офисные принадлежности</h4>
-              </div>
-              <div class="card__image-inner">
-                <img class="card__image" src="images/офисные принадлежности/пва.png " alt="">
-              </div>
-
-            </a>
-          </li>
-          </ul>
-          <ul class="catalog__list cards-lower">
-          <li class="cards-list__item card">
-            <a class="card__link" href="#">
-              <div class="card__info-inner">
-                <h4 class="card__name">Бумага для принтеров</h4>
-              </div>
-              <div class="card__image-inner">
-                <img class="card__image" src="images/бумага для офисной техники/снегурочка.png" alt="">
-              </div>
-            </a>
-          </li>
-          <li class="cards-list__item card">
-            <a class="card__link" href="#">
-              <div class="card__info-inner">
-                <h4 class="card__name">Бумажная продукция</h4>
-              </div>
-              <div class="card__image-inner">
-                <img class="card__image" src="images/бумажная продукция для офиса/календарь.png" alt="">
-              </div>
-
-            </a>
-          </li>
-        </ul>
-    </section>
-  </div>
-  
+  </section>
 </main>
 <footer>
   <div class="container">
@@ -213,7 +252,6 @@
     </div>
   </div>
 </footer>
-
 </body>
 
 </html>

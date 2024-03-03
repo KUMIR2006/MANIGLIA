@@ -1,0 +1,109 @@
+.product__card-inner{
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
+.product__info{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  padding: 0 100px 0 0;
+}
+.product__image-inner{
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  border: #2c4a52 solid 6px;
+}
+.product__image{
+  width: 600px;
+  height: 600px;
+  border-radius: 0px;
+  object-fit: cover;
+}
+.product__info-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px;
+}
+.product__wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 40px;
+}
+.product__title{
+  font-size: 38px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.product__details{
+  text-align: start;
+  font-size: 35px;
+  letter-spacing: 1px;
+  white-space: pre-line;
+  line-height: 75px;
+}
+.basket__cost{
+  min-height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  font-size: 32px;
+  letter-spacing:1px;
+}
+.product__cost{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+  background-color: #8e9b97;
+
+}
+.product__cost-title{
+  padding: 10px;
+}
+.product__cost-value{
+  display: flex;
+  align-items: center;
+  min-height: 100px;
+  background-color: #537072;
+  padding: 10px;
+  color: #F4E8D8;
+}
+
+.product__descrtiption-title{
+  padding: 0 0 20px 0;
+  font-size: 35px;
+  letter-spacing: 1px;
+}
+.product__descrtiption-info{
+  font-size: 23px;
+  letter-spacing: normal;
+  line-height:normal;
+}
+
+.product__backet{
+  display: flex;
+  align-items: center;
+  min-height: 100px;
+  background-color: #537072;
+  padding: 10px;
+  color: #F4E8D8;
+  border: 5px solid #537072;
+  transition: 0.4s;
+}
+.product__backet:hover,
+.product__backet:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #537072;
+}
+
+.product__backet:active {
+  opacity: .5;
+}

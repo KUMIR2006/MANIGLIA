@@ -1,0 +1,28 @@
+input[type=radio]{
+  width: 20mm;
+  height: 20mm;
+  border: 2mm solid black;
+  border-radius: 50px;
+}
+/*
+input[type=checkbox]{
+  display: none;
+}
+input[type=checkbox] + label{
+  display: block;
+  width: 30px;
+  height: 30px;
+  background: #ccc;
+  border: 1px solid #555;    
+  text-align: center;    
+}
+input[type=checkbox] + label:before{
+  content: '✔';
+  font-size: 20px;
+}
+input[type=checkbox]:checked + label{
+  border: 1px solid green;    
+}
+input[type=checkbox]:checked + label:before{
+  color: green;
+}*/
