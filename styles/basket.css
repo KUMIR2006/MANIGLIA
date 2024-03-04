@@ -162,11 +162,11 @@
 .basket__item-delete svg:hover path{
   fill:#2C4A52;
 }
-input[type='radio']{
+input[type='checkbox']{
   cursor: pointer;
 }
 
-input[type='radio'] {
+input[type='checkbox'] {
   position: relative;
   height: 22px;
   width: 22px;
@@ -176,7 +176,7 @@ input[type='radio'] {
   outline: none;
 }
 
-input[type='radio']::before {
+input[type='checkbox']::before {
   content: '';
   position: absolute;
   top: 50%;
@@ -189,7 +189,7 @@ input[type='radio']::before {
   border: 2px solid #2C4A52;
 }
 
-input[type='radio']:checked::after {
+input[type='checkbox']:checked::after {
   content: '';
   position: absolute;
   top: 50%;

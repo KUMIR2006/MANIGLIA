@@ -100,4 +100,12 @@
 }
 .button{
   background-color: rgb(44, 74, 82);
+  min-width: 350px;
+}
+.text__login{
+  margin: 0 0 10px;
+  width: 500px;
+  text-align: center;
+  color: #F4E8D8;
+  text-decoration: none;
 }

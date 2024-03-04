@@ -1,0 +1,17 @@
+.password-control{
+    position: absolute;
+	top: 327px;
+	right: 109px;
+	width: 30px;
+	height: 30px;
+	background: url(../icons/view.svg) 0 0 no-repeat;
+}
+.registration__form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 600px;
+    height: 600px;
+    background:rgb(44, 74, 82);
+  }

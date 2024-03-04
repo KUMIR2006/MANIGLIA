@@ -1,0 +1,90 @@
+.menu__media svg path{
+  fill:#2C4A52;
+  transition: 0.75s;
+}
+.menu__media svg:hover path{
+  fill:#537072;
+  opacity: 0.75;
+}
+.contact__inner{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 25px 0 30px;
+  gap: 10px;
+  min-width: 100vh;
+}
+.contact__info-title{
+  flex-shrink: 0;
+  font-size: 50px;
+  margin: 0 0 30px;
+  letter-spacing:5px;
+}
+.soc__number{
+  display: flex;
+  flex-grow: 1;
+  flex-direction: row;
+  justify-content: space-evenly;
+  min-width: 100%;
+}
+.social__media{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  border: #2c4a52 solid 5px;
+}
+.number__list{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  font-size: 23px;
+  letter-spacing:normal;
+  gap: 30px;
+  padding: 10px 10px 20px;
+  border: #2c4a52 solid 5px;
+}
+.contact__numbers{
+  flex-shrink: 0;
+}
+.phone__numbers{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 32px;
+  gap:20px;
+  flex-grow: 1;
+}
+.number__info{
+  flex-shrink: 0;
+}
+.menu__media{
+  width: 100%;
+  padding: 10px;
+}
+.content-media{
+  width: 100%;
+}
+.media__link{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+  font-size: 27px;
+  letter-spacing:normal;
+  width: 100%;
+}
+.social__media-name{
+  min-width: 160px;
+}
+.social__title{
+  text-align: center;
+  padding: 10px;
+  font-size: 35px;
+  letter-spacing: 1px;
+}
+.address__image-box{
+  border: #2c4a52 solid 5px;
+}
