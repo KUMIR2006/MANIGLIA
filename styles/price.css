@@ -1,0 +1,36 @@
+.offer__title{
+    font-size: 45px;
+    margin: 30px 0 0;
+    letter-spacing:5px;
+    text-align: center;
+}
+.price__inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+table{
+    font-size: 20px;
+    margin: 30px 0;
+    letter-spacing: normal;
+    width: 1000px;
+}
+table, th, td {
+    border: 1px solid black;
+
+}
+th, td {
+    padding: 10px;
+
+}
+.button-download, .basket__footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.button-download{
+    min-width: 1000px;
+    margin-bottom: 30px;
+}
